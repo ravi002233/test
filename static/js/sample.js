@@ -60,7 +60,7 @@ looker.plugins.visualizations.add({
     // }
 
     // Grab the first cell of the data
-    // var firstRow = data[0];
+     var firstRow = data[0];
     // var firstCell = firstRow["game.friendly_class"];
 
     // Insert the data into the page
