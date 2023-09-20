@@ -8,8 +8,8 @@ const visObject = {
       const actual_data = []
 
       data.forEach((d)=>{
-          data_labels.push(d["Products Category"])
-          actual_data.push(d["Products Count"])
+          data_labels.push(d["GCA Level"])
+          actual_data.push(d["Head Count"])
       })
 
       const vizCanvas = document.createElement('canvas')
