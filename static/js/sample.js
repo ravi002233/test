@@ -65,9 +65,9 @@
        // format the data
        data.forEach(function(d) {
          formattedData.push({
-             count: d["game.count"]["value"],
-           friendly_class: d["game.friendly_class"]["value"],
-           opponent_class: d["game.opponent_class"]["value"]
+            count: d["Head Count"],
+            friendly_class: d["GCA Level"],
+            opponent_class: d["GCA Level"]
          });
        });
    
